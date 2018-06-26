@@ -1,4 +1,6 @@
 from gametasks import *
+from gameclasses import *
 
-print(getUserScore("Mark"))
-updateUserScore(True, "Markusz", "1320")
+
+binary = BinaryGame()
+binary.generateQuestions()
